@@ -47,7 +47,7 @@ jobs:
           swap-size-gb: 10
       - name:
           Configure pagefile
-          # v1.2 (7e234852c937eea04d6ee627c599fb24a5bfffee)
+        # v1.2 (7e234852c937eea04d6ee627c599fb24a5bfffee)
         uses: al-cheb/configure-pagefile-action@7e234852c937eea04d6ee627c599fb24a5bfffee
         if: runner.os == 'Windows'
         with:
