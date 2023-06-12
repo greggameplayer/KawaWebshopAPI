@@ -1,9 +1,7 @@
 package com.kawa.service.dto.request;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.kawa.domain.bean.CustomerWithoutId;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 import java.util.StringJoiner;

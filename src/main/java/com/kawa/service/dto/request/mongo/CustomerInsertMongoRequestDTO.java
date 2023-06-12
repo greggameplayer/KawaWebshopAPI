@@ -3,9 +3,7 @@ package com.kawa.service.dto.request.mongo;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIncludeProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.kawa.domain.bean.Customer;
 import com.kawa.domain.bean.CustomerWithoutId;
-import com.kawa.service.dto.response.mongo.CustomerFindOneMongoResponseDTO;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
